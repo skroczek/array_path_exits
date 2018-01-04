@@ -1,0 +1,16 @@
+### Composer ###
+composer.phar
+composer.lock
+/vendor/
+.idea/
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/

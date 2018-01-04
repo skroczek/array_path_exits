@@ -1,6 +1,9 @@
 array_path_exits
 ================
 
+[![Build Status](https://travis-ci.org/skroczek/array_path_exits.svg?branch=master)](https://travis-ci.org/skroczek/array_path_exits)
+[![Coverage Status](https://coveralls.io/repos/github/skroczek/array_path_exits/badge.svg?branch=master)](https://coveralls.io/github/skroczek/array_path_exits?branch=master)
+
 Just like the php array_key_exists function but with the possibility to give multiple keys (path).
 
 Installation

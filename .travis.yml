@@ -41,7 +41,7 @@ install:
 
 script:
  - mkdir -p build/logs
- - vendor/bin/phpunit --coverage-clover build/logs/clover.xml --bootstrap tests/bootstrap.php tests/
+ - vendor/bin/phpunit --coverage-clover build/logs/clover.xml --whitelist src/ --bootstrap tests/bootstrap.php tests/
 
 after_success:
 # Submit coverage report to Coveralls servers, see .coveralls.yml

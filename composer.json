@@ -3,7 +3,7 @@
   "description": "Checks if the given keys or indices exists in the array",
   "type": "library",
   "require-dev": {
-    "phpunit/phpunit": "^6.0"
+    "phpunit/phpunit": "^5.0"
   },
   "license": "MIT",
   "authors": [

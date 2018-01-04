@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-use PHPUnit\Framework\TestCase;
+use PHPUnit_Framework_TestCase as TestCase;
 
 class ArrayPathExistsTest extends TestCase
 {
